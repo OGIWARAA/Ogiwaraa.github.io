@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Hello 2024"
+title:      "实训day 1"
 subtitle:   " \"实训day 1\""
 date:       2024-05-28 12:00:00
 author:     "SAYU"
