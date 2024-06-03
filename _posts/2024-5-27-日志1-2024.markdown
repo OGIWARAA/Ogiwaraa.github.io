@@ -7,7 +7,7 @@ author:     "SAYU"
 header-img: "img/bg-little-universe.jpg"
 catalog: true
 tags:
-    - int
+    - 实训
 ---
 
 # 一·课程主要内容：安装并且配置各种文件
