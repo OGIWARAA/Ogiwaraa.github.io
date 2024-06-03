@@ -1,12 +1,12 @@
 {
-    "name": "pqqqYa-blog",
-    "title": "pqqqYa Blog",
-    "author": "pqqqYa",
+    "name": "Ogiwaraa-blog",
+    "title": "Ogiwaraa Blog",
+    "author": "Ogiwaraa",
     "version": "1.8.2",
-    "homepage": "http://pqqqYa.github.io",
+    "homepage": "http://Ogiwaraa.github.io",
     "repository": {
         "type": "git",
-        "url": "https://github.com/pqqqYa/pqqqYa.github.io"
+        "url": "https://github.com/Ogiwaraa/Ogiwaraa.github.io"
     },
     "bugs": "",
     "devDependencies": {
