@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "实训day 1"
-subtitle:   " \"实训day 1\""
+subtitle:   " \"安装并且配置\""
 date:       2024-05-28 12:00:00
 author:     "SAYU"
 header-img: "img/bg-little-universe.jpg"
@@ -10,9 +10,7 @@ tags:
     - int
 ---
 
-# Day 1
-
-安装并且配置各种文件
+# 一·课程主要内容：安装并且配置各种文件
 
 ## 1 JAVA
 
@@ -39,3 +37,71 @@ tags:
 ## 5 APIPOST
 
 使用qq群内安装包安装
+
+## 6 tomacat
+
+使用qq群内下载的解压包出来
+
+在系统变量下配置
+
+1.新建CATALINA_BASE变量
+
+变量名：CATALINA_BASE
+
+变量值：D:\SoftMgr\apache-tomcat-9.0.34\apache-tomcat-9.0.34
+
+2.新建CATALINA_HOME变量
+
+变量名：CATALINA_HOME
+
+变量值：D:\SoftMgr\apache-tomcat-9.0.34\apache-tomcat-9.0.34
+
+3.新建CATALINA_TMPDIR变量
+
+变量名：CATALINA_TMPDIR
+
+变量值：D:\SoftMgr\apache-tomcat-9.0.34\apache-tomcat-9.0.34\temp
+
+4.找到Path变量，点击编辑
+
+变量名：Path
+
+变量值：D:\SoftMgr\apache-tomcat-9.0.34\apache-tomcat-9.0.34\bin
+
+# 二·课堂收获与感悟
+
+## 1.Java的下载与安装：
+
+Java作为后端开发的基石之一，其安装相对简单直接。但初次安装时，理解JDK（Java Development Kit）和JRE（Java Runtime Environment）
+
+的区别很重要。此外，配置JAVA_HOME环境变量和将其添加到PATH中也是关键步骤，以确保在命令行中能够顺利使用Java。
+
+## 2.MySQL的下载与安装：
+
+MySQL作为流行的关系型数据库管理系统，其安装过程较为直观。但在安装过程中，选择合适的配置（如字符集、排序规则等）对于后续的开发至关重
+
+要。同时，了解如何安全地设置root用户密码以及如何进行基本的数据库操作也是必要的。
+
+## 3.Navicat的下载与使用：
+
+Navicat作为一款强大的数据库管理工具，其界面友好、功能丰富。通过Navicat，可以方便地连接到MySQL数据库，进行表结构的创建、数据的增删
+
+改查等操作。初次使用时，了解其界面布局和常用功能可以大大提高工作效率。
+
+## 4.IntelliJ IDEA的下载与配置：
+
+IntelliJ IDEA作为Java开发者的首选IDE（集成开发环境），其功能强大且易于上手。下载和安装过程简单明了，但配置IDE以符合个人开发习惯和
+
+需求则是一个需要花费一些时间的过程。了解如何设置代码样式、导入必要的库和框架、配置版本控制等都是非常重要的。
+
+## 5.ApiPost的下载与使用：
+
+ApiPost作为一款API测试工具，对于前后端联调、接口测试等工作非常有帮助。通过ApiPost，可以方便地发送HTTP请求、查看响应结果、进行断言
+
+验证等。在使用过程中，了解其界面布局、常用功能以及如何编写测试用例等是非常必要的。
+
+## 6.Tomcat的下载与配置：
+
+Tomcat作为Java Web应用的常用服务器，其下载与配置过程相对简单。但在配置过程中，需要注意一些细节问题，如端口号的选择、环境变量的设置
+
+等。此外，了解如何部署Web应用到Tomcat中以及如何进行基本的服务器管理也是非常重要的。
